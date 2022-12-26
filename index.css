@@ -76,6 +76,13 @@ h3 {
 }
 
 @media screen and (max-width: 480px) {
+
+    body{
+        display: flex;
+        margin: 0;
+        justify-content: center;
+        width: 100vw;
+    }
     .mainContainer {
         margin: 40px;
     }
